@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Data & Automation Solutions | Dados, Planilhas e Automação</title>
+  <title>Dados & Automação | Dados, Planilhas e Automação</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
@@ -525,15 +525,35 @@
       display: flex; justify-content: space-between; align-items: center;
       gap: 16px; flex-wrap: wrap;
     }
+    .footer-left { display: flex; flex-direction: column; gap: 6px; }
     .footer-logo-txt {
       font-size: 13px; font-weight: 600; color: var(--text-muted);
       display: flex; align-items: center; gap: 8px;
     }
     .footer-logo-txt span { color: var(--cyan); }
-    .footer-copy { font-size: 12px; color: var(--text-muted); }
+    .footer-legal {
+      display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    }
+    .footer-cnpj {
+      font-size: 11.5px; color: var(--text-muted);
+      letter-spacing: 0.01em;
+    }
+    .footer-copy { font-size: 11.5px; color: var(--text-muted); }
+    .footer-sep { color: var(--border); font-size: 11px; }
+    .footer-right { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
     .footer-nav { display: flex; gap: 22px; }
     .footer-nav a { font-size: 12px; color: var(--text-muted); text-decoration: none; transition: color .2s; }
     .footer-nav a:hover { color: var(--text-secondary); }
+    .footer-linkedin {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: 12px; font-weight: 600; color: var(--text-muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 6px 12px; border-radius: 6px;
+      transition: color .2s, border-color .2s;
+    }
+    .footer-linkedin:hover { color: var(--cyan); border-color: var(--border-glow); }
+    .footer-linkedin svg { flex-shrink: 0; }
 
     /* ── REVEAL ANIMATIONS ── */
     .reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
@@ -1013,7 +1033,7 @@
         Uma conversa de 30 minutos. Sem enrolação, sem pitch de venda. Você sai com clareza sobre o maior gargalo operacional da sua empresa — mesmo que não me contrate depois.
       </p>
       <div class="fcta-actions reveal">
-        <a class="btn btn-wa" href="https://wa.me/12988793663?text=Olá!%20Quero%20um%20diagnóstico%20gratuito%20da%20minha%20operação." target="_blank" rel="noopener">
+        <a class="btn btn-wa" href="https://wa.me/5512988793663?text=Olá!%20Quero%20um%20orçamento%20gratuito." target="_blank" rel="noopener">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.477 2 2 6.477 2 12.004c0 1.758.46 3.406 1.264 4.842L2 22l5.296-1.239C8.705 21.56 10.32 22 12.004 22 17.523 22 22 17.524 22 12.004 22 6.477 17.523 2 12.004 2zm0 18.007c-1.594 0-3.09-.43-4.381-1.178l-.313-.186-3.145.735.764-3.07-.204-.32C3.86 14.754 3.4 13.43 3.4 12.004 3.4 7.25 7.25 3.4 12.004 3.4c4.754 0 8.6 3.85 8.6 8.604 0 4.754-3.846 8.003-8.6 8.003z"/></svg>
           Falar com o Especialista no WhatsApp
         </a>
@@ -1028,21 +1048,33 @@
 <footer>
   <div class="container">
     <div class="footer-bar">
-      <div class="footer-logo-txt">
-        <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
-          <rect x="1" y="1" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".9"/>
-          <rect x="9" y="1" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".35"/>
-          <rect x="1" y="9" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".35"/>
-          <rect x="9" y="9" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".65"/>
-        </svg>
-        Data <span>&</span> Automation Solutions
+      <div class="footer-left">
+        <div class="footer-logo-txt">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
+            <rect x="1" y="1" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".9"/>
+            <rect x="9" y="1" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".35"/>
+            <rect x="1" y="9" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".35"/>
+            <rect x="9" y="9" width="6" height="6" rx="1.5" fill="#00D4FF" opacity=".65"/>
+          </svg>
+          Dados <span>&</span> Automação
+        </div>
+        <div class="footer-legal">
+          <span class="footer-cnpj">CNPJ 64.213.067/0001-97</span>
+          <span class="footer-sep">·</span>
+          <span class="footer-copy">© 2025 · Todos os direitos reservados.</span>
+        </div>
       </div>
-      <span class="footer-copy">© 2025 · Todos os direitos reservados.</span>
-      <nav class="footer-nav">
-        <a href="#servicos">Serviços</a>
-        <a href="#modelos">Modelos</a>
-        <a href="#contato">Contato</a>
-      </nav>
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a href="#servicos">Serviços</a>
+          <a href="#modelos">Modelos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <a class="footer-linkedin" href="https://www.linkedin.com/in/marcelo-murata-79b416275/" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
     </div>
   </div>
 </footer>
