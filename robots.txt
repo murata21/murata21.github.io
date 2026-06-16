@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muratatech.com.br/sitemap.xml
