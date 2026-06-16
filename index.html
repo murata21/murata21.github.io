@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Murata Dados & Automação | Dados, Planilhas e Automação</title>
+  <title>Murata Dados & Automação | Soluções e Sistemas Operacionais Sob Medida</title>
   <link rel="icon" type="image/png" href="logo_Murata.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -127,13 +127,6 @@
       height: 66px; gap: 24px;
     }
     .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-    .logo-mark {
-      width: 32px; height: 32px;
-      background: var(--cyan-dim);
-      border: 1px solid var(--border-glow);
-      border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-    }
     .logo-name {
       font-family: var(--font-display);
       font-size: 14.5px; font-weight: 700;
@@ -239,7 +232,7 @@
       padding: 4px 12px; border-radius: 100px;
     }
 
-    /* ── PAIN ── */
+    /* ── DOR ── */
     .pain { padding: 96px 0; }
     .pain-intro { margin-bottom: 52px; }
     .pain-grid {
@@ -255,15 +248,15 @@
       display: flex; gap: 16px; align-items: flex-start;
       transition: border-color .25s, background .2s;
     }
-    .pain-card:hover { border-color: rgba(255,90,90,.25); background: var(--bg-card-hover); }
+    .pain-card:hover { border-color: rgba(0,212,255,0.25); background: var(--bg-card-hover); }
     .pain-ico {
       width: 38px; height: 38px; flex-shrink: 0;
-      background: rgba(255,80,80,.07);
-      border: 1px solid rgba(255,80,80,.18);
+      background: rgba(0,212,255,.07);
+      border: 1px solid rgba(0,212,255,.18);
       border-radius: 9px;
       display: flex; align-items: center; justify-content: center;
     }
-    .pain-ico svg { color: #FF7070; }
+    .pain-ico svg { color: var(--cyan); }
     .pain-body strong { display: block; font-size: 14px; font-weight: 600; margin-bottom: 5px; }
     .pain-body p { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; }
 
@@ -585,73 +578,67 @@
 </head>
 <body>
 
-<!-- ════════════════ HEADER ════════════════ -->
 <header>
   <div class="container">
     <div class="header-inner">
       <a class="logo" href="#">
-        <!-- Adicionado object-fit: contain para o PNG manter a proporção perfeita -->
         <img src="logo_Murata_Clean.png" alt="Murata Dados & Automação" style="width: 32px; height: 32px; object-fit: contain;">
         <span class="logo-name">Murata <span>Dados & Automação</span></span>
       </a>
       <nav>
-        <a href="#servicos">Serviços</a>
-        <a href="#modelos">Modelos</a>
-        <a href="#contato">Contato</a>
+        <a href="#servicos">Tabela de Serviços</a>
+        <a href="#modelos">Modelos de Entrega</a>
+        <a href="#contato">Solicitar Projeto</a>
       </nav>
       <a class="btn btn-cyan" href="#contato">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        Diagnóstico Gratuito
+        Orçamento Rápido
       </a>
     </div>
   </div>
 </header>
 
-<!-- ════════════════ HERO ════════════════ -->
 <section class="hero">
   <div class="hero-glow"></div>
   <div class="container">
-    <div class="hero-pill"><span class="hero-dot"></span>Especialista em Dados · Planilhas · Automação</div>
+    <div class="hero-pill"><span class="hero-dot"></span>Engenharia de Processos · Desenvolvimento Eficiente</div>
     <h1 class="hero-headline">
-      Sua empresa rodando no<br/>
-      <em>piloto automático</em><br/>
-      e guiada por dados reais.
+      Sua demanda operacional<br/>
+      entregue pronta e em<br/>
+      <em>piloto automático</em>.
     </h1>
     <p class="hero-sub">
-      Pare de perder tempo com planilhas quebradas e processos manuais.
-      Crio <strong>planilhas inteligentes, automações, dashboards e sistemas internos sob medida</strong>
-      para que sua operação seja lucrativa, escalável e não dependa de você para tudo.
+      Você me fala qual é o gargalo ou o sistema que precisa criar, e eu entrego a solução rodando. Desenvolvo <strong>planilhas de alta performance, integrações automáticas, painéis de indicadores e sistemas web internos</strong> focados em fazer sua empresa lucrar mais gastando menos tempo.
     </p>
     <div class="hero-ctas">
       <a class="btn btn-cyan-lg" href="#contato">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        Quero um Orçamento
+        Encomendar Minha Solução
       </a>
-      <a class="btn btn-ghost" href="#servicos">Ver serviços →</a>
+      <a class="btn btn-ghost" href="#servicos">Ver catálogo de serviços →</a>
     </div>
-    <p class="hero-note">Diagnóstico inicial gratuito. Sem compromisso.</p>
+    <p class="hero-note">Análise de viabilidade técnica gratuita. Escopo 100% fechado.</p>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-val">80%</span><span class="stat-lbl">menos tempo em tarefas repetitivas</span></div>
+      <div class="stat"><span class="stat-val">Zero</span><span class="stat-lbl">Microgerenciamento: você pede, eu entrego</span></div>
       <div class="stat-sep"></div>
-      <div class="stat"><span class="stat-val">–3 dias</span><span class="stat-lbl">para fechar relatórios mensais</span></div>
+      <div class="stat"><span class="stat-val">100%</span><span class="stat-lbl">Código e sistemas proprietários seus</span></div>
       <div class="stat-sep"></div>
-      <div class="stat"><span class="stat-val">100%</span><span class="stat-lbl">customizado ao seu processo</span></div>
+      <div class="stat"><span class="stat-val">Direto</span><span class="stat-lbl">Ao ponto, sem reuniões desnecessárias</span></div>
     </div>
   </div>
 </section>
 
-<!-- ════════════════ TECH BAND ════════════════ -->
 <div class="tech-band">
   <div class="container">
     <div class="tech-inner">
-      <span class="tech-label">Tecnologias</span>
+      <span class="tech-label">Tecnologias de Entrega</span>
       <div class="tech-chips">
-        <span class="chip">Excel / Google Sheets</span>
-        <span class="chip">Power BI · Looker</span>
-        <span class="chip">n8n · Make</span>
-        <span class="chip">Python · FastAPI</span>
-        <span class="chip">PostgreSQL · SQL</span>
-        <span class="chip">API REST · Webhooks</span>
+        <span class="chip">Excel / Google Sheets Avançado</span>
+        <span class="chip">Power BI · Looker Studio</span>
+        <span class="chip">n8n · Make (Integromat)</span>
+        <span class="chip">Python · FastAPI · Automações</span>
+        <span class="chip">PostgreSQL · SQL Server</span>
+        <span class="chip">Integrações de APIs & Webhooks</span>
       </div>
     </div>
   </div>
@@ -659,13 +646,12 @@
 
 <div class="divider"></div>
 
-<!-- ════════════════ DOR ════════════════ -->
 <section class="pain" id="dores">
   <div class="container">
     <div class="pain-intro">
-      <p class="eyebrow reveal">Você se identifica?</p>
-      <h2 class="section-title reveal">Se sua empresa ainda funciona assim,<br/>você está deixando dinheiro na mesa.</h2>
-      <p class="section-sub reveal" style="margin-top:12px;">Esses problemas parecem normais porque todo mundo tem. Mas não precisam ser.</p>
+      <p class="eyebrow reveal">Problemas que eu elimino</p>
+      <h2 class="section-title reveal">Trava na operação?<br/>Eu entro com o desenvolvimento.</h2>
+      <p class="section-sub reveal" style="margin-top:12px;">Se a sua rotina se encaixa em algum desses cenários, a solução é engenharia técnica aplicada.</p>
     </div>
     <div class="pain-grid">
       <div class="pain-card reveal d1">
@@ -673,8 +659,8 @@
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
         </div>
         <div class="pain-body">
-          <strong>Equipe no Ctrl+C, Ctrl+V</strong>
-          <p>Seu time passa horas copiando dados de uma ferramenta para outra — em vez de fazer o que realmente gera resultado.</p>
+          <strong>Processos Manuais Repetitivos</strong>
+          <p>Sua equipe perde o dia transferindo dados manualmente entre CRM, ERP e planilhas soltas. Eu automatizo o fluxo ponta a ponta.</p>
         </div>
       </div>
       <div class="pain-card reveal d2">
@@ -682,8 +668,8 @@
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
         </div>
         <div class="pain-body">
-          <strong>Decisões no "achismo"</strong>
-          <p>Relatórios que levam dias para ficar prontos chegam tarde demais para mudar qualquer coisa.</p>
+          <strong>Falta de Visão nos Indicadores</strong>
+          <p>Você sabe que está vendendo, mas não enxerga a margem real em tempo real. Eu centralizo tudo em um dashboard automatizado.</p>
         </div>
       </div>
       <div class="pain-card reveal d3">
@@ -691,35 +677,8 @@
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
         <div class="pain-body">
-          <strong>Planilha que "funcionava"</strong>
-          <p>Aquela planilha que todo mundo usa mas ninguém entende — cheia de fórmulas quebradas e abas escondidas.</p>
-        </div>
-      </div>
-      <div class="pain-card reveal d1">
-        <div class="pain-ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <div class="pain-body">
-          <strong>KPIs que ninguém confia</strong>
-          <p>Cada departamento tem uma versão diferente dos números. Reuniões viram debate sobre qual planilha está certa.</p>
-        </div>
-      </div>
-      <div class="pain-card reveal d2">
-        <div class="pain-ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
-        </div>
-        <div class="pain-body">
-          <strong>Processos no WhatsApp</strong>
-          <p>Pedidos, aprovações e controles espalhados por grupos de zap, e-mails soltos e planilhas que só uma pessoa sabe usar.</p>
-        </div>
-      </div>
-      <div class="pain-card reveal d3">
-        <div class="pain-ico">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        </div>
-        <div class="pain-body">
-          <strong>Escalar virou sinônimo de contratar</strong>
-          <p>Crescer ficou caro porque mais volume = mais gente fazendo o mesmo trabalho manual de sempre.</p>
+          <strong>Planilhas Lentas e Quebradas</strong>
+          <p>Controles vitais rodando em arquivos cheios de fórmulas ocultas que travam ou dão erro de cálculo. Eu refaço e blindo a estrutura.</p>
         </div>
       </div>
     </div>
@@ -728,168 +687,77 @@
 
 <div class="divider"></div>
 
-<!-- ════════════════ SERVICES (TABBED) ════════════════ -->
 <section class="services" id="servicos">
   <div class="container">
     <div class="services-header">
       <div>
-        <p class="eyebrow reveal">O que eu entrego</p>
-        <h2 class="section-title reveal" style="max-width:480px;">Soluções que impactam<br/>direto no resultado.</h2>
+        <p class="eyebrow reveal">Catálogo de Serviços</p>
+        <h2 class="section-title reveal" style="max-width:480px;">O que você pode<br/>encomendar agora.</h2>
       </div>
-      <p class="section-sub reveal" style="max-width:360px; font-size:14.5px;">Não vendo ferramenta, vendo resultado. Cada entrega é mapeada para um problema real da sua operação.</p>
+      <p class="section-sub reveal" style="max-width:360px; font-size:14.5px;">Projetos focados em execução. Você traz o objetivo do negócio, eu escolho as ferramentas e entrego o sistema pronto.</p>
     </div>
 
-    <!-- tabs -->
     <div class="svc-tabs">
-      <button class="svc-tab active" onclick="showTab('sheets', this)"> Planilhas &amp; Dashboards</button>
-      <button class="svc-tab" onclick="showTab('auto', this)"> Automação de Processos</button>
-      <button class="svc-tab" onclick="showTab('dev', this)"> Aplicações Internas</button>
-      <button class="svc-tab" onclick="showTab('bi', this)"> Consultoria &amp; BI</button>
+      <button class="svc-tab active" onclick="showTab('sheets', this)">Planilhas &amp; Dashboards</button>
+      <button class="svc-tab" onclick="showTab('auto', this)">Automação de Processos</button>
+      <button class="svc-tab" onclick="showTab('dev', this)">Sistemas &amp; Aplicações</button>
     </div>
 
-    <!-- PANEL: PLANILHAS -->
     <div id="tab-sheets" class="svc-panel panel-sheets active">
       <div class="sheet-card featured">
         <div>
-          <div class="sheet-tag">Serviço Principal</div>
+          <div class="sheet-tag">Desenvolvimento de Engenharia</div>
           <div class="sheet-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
           </div>
-          <h3 class="sheet-title">Planilhas Inteligentes sob Medida</h3>
-          <p class="sheet-desc">Chega de planilha que "quase funciona". Construo planilhas profissionais no Excel ou Google Sheets <strong>com fórmulas avançadas, automações internas, validações e dashboards embutidos</strong> — feitas especificamente para o seu processo.</p>
+          <h3 class="sheet-title">Planilhas Inteligentes e Dashboards Integrados</h3>
+          <p class="sheet-desc">Construção e reestruturação completa de planilhas corporativas no Excel ou Google Sheets. Esqueça arquivos lentos: entrego estruturas <strong>blindadas contra erros, com automações internas em VBA/Apps Script e conectadas a fontes de dados externas</strong>.</p>
         </div>
         <ul class="sheet-bullets">
-          <li>Controle financeiro e fluxo de caixa com atualização automática</li>
-          <li>Gestão de estoque, pedidos ou produção com alertas visuais</li>
-          <li>Relatórios automáticos com um clique — sem digitação manual</li>
-          <li>Integração com Google Forms, APIs externas e outras planilhas</li>
-          <li>Documentação e treinamento para sua equipe usar sem depender de você</li>
-          <li>Manutenção e ajustes futuros quando o processo mudar</li>
+          <li>Fluxo de caixa e conciliação financeira automatizada com bancos/ERPs</li>
+          <li>Sistemas integrados de gestão de estoque, ordens de serviço e produção</li>
+          <li>Painéis visuais (Power BI / Looker Studio) atualizados automaticamente em tempo real</li>
+          <li>Auditoria técnica e limpeza de dados de planilhas antigas e travadas</li>
+          <li>Handoff completo com treinamento objetivo focado no seu time operacional</li>
         </ul>
-      </div>
-      <div class="sheet-card">
-        <div class="sheet-tag">Dashboards</div>
-        <div class="sheet-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="1" width="10" height="10" rx="2"/><rect x="13" y="1" width="10" height="10" rx="2"/><rect x="1" y="13" width="10" height="10" rx="2"/><rect x="13" y="13" width="10" height="10" rx="2"/></svg>
-        </div>
-        <h3 class="sheet-title">Dashboards de Gestão</h3>
-        <p class="sheet-desc">Faturamento, margem, KPIs e indicadores operacionais <strong>atualizados em tempo real</strong>. No Power BI, Looker Studio ou dentro da própria planilha.</p>
-      </div>
-      <div class="sheet-card">
-        <div class="sheet-tag">Migração & Organização</div>
-        <div class="sheet-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-        </div>
-        <h3 class="sheet-title">Migração e Reestruturação</h3>
-        <p class="sheet-desc">Aquela planilha que ninguém entende mais? Reestruturei do zero, <strong>limpei os dados, organizei abas e documentei tudo</strong> para que qualquer pessoa da equipe consiga usar.</p>
       </div>
     </div>
 
-    <!-- PANEL: AUTOMAÇÃO -->
     <div id="tab-auto" class="svc-panel panel-generic">
       <div class="svc-card">
-        <div class="svc-tag">n8n · Make · Zapier</div>
+        <div class="svc-tag">Integração via n8n / Make</div>
         <div class="svc-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </div>
-        <h3 class="svc-title">Automação de Fluxos</h3>
-        <p class="svc-desc">Integre seu <strong>CRM, ERP, WhatsApp, e-mail e emissão de notas</strong>. Os dados fluem automaticamente entre sistemas — sem nenhuma digitação manual no meio do caminho.</p>
+        <h3 class="svc-title">Automação de Fluxos de Trabalho</h3>
+        <p class="svc-desc">Conexão nativa e via API entre seus sistemas (CRM, ERP, WhatsApp, Bling, e-mails, emissoras de notas fiscais). Os robôs executam a digitação e a transferência de dados em segundos, eliminando o trabalho manual e o risco de falha humana.</p>
       </div>
       <div class="svc-card">
-        <div class="svc-tag">Notificações & Alertas</div>
+        <div class="svc-tag">Robôs de Notificação</div>
         <div class="svc-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
         </div>
-        <h3 class="svc-title">Alertas e Notificações Automáticas</h3>
-        <p class="svc-desc">Receba avisos no WhatsApp ou e-mail quando <strong>uma meta for atingida, um estoque baixar ou um prazo se aproximar</strong> — sem precisar checar nada manualmente.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Relatórios Automáticos</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        </div>
-        <h3 class="svc-title">Geração Automática de Relatórios</h3>
-        <p class="svc-desc">Relatórios semanais ou mensais <strong>gerados e enviados automaticamente</strong> para a liderança — sem ninguém precisar montar nada na véspera da reunião.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Integração de Sistemas</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 009 9"/></svg>
-        </div>
-        <h3 class="svc-title">Conexão entre Ferramentas</h3>
-        <p class="svc-desc">Seu sistema de vendas, financeiro e operacional <strong>conversando entre si em tempo real</strong> — sem exportar CSV, sem copiar e colar, sem intermediários.</p>
+        <h3 class="svc-title">Alertas e Relatórios Automáticos</h3>
+        <p class="svc-desc">Desenvolvimento de disparos automáticos de mensagens (via WhatsApp ou e-mail corporativo) contendo relatórios consolidados de fechamento, alertas de estoque mínimo crítico ou notificações de cobrança automáticas para clientes inadimplentes.</p>
       </div>
     </div>
 
-    <!-- PANEL: DEV -->
     <div id="tab-dev" class="svc-panel panel-generic">
       <div class="svc-card">
-        <div class="svc-tag">Sistemas Web</div>
+        <div class="svc-tag">Python / Web Apps</div>
         <div class="svc-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         </div>
-        <h3 class="svc-title">Aplicações Internas Web</h3>
-        <p class="svc-desc">Ferramentas web <strong>feitas para o seu processo</strong> — não um sistema genérico que sua equipe precisa se adaptar. Acesso por navegador, sem instalar nada.</p>
+        <h3 class="svc-title">Aplicações e Ferramentas Internas</h3>
+        <p class="svc-desc">Desenvolvimento de softwares web exclusivos para o uso dos seus funcionários. Sistemas leves, acessados direto pelo navegador, construídos de forma personalizada para gerenciar o processo exato que softwares genéricos de mercado não atendem.</p>
       </div>
       <div class="svc-card">
-        <div class="svc-tag">Scripts & Bots</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <h3 class="svc-title">Scripts e Robôs de Processamento</h3>
-        <p class="svc-desc">Scripts em Python que <strong>processam arquivos, limpam dados, consolidam relatórios e executam tarefas de madrugada</strong> — sem precisar de ninguém acordado.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">API & Integrações</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
-        </div>
-        <h3 class="svc-title">Construção de APIs</h3>
-        <p class="svc-desc">APIs REST para conectar sistemas legados ao seu ecossistema atual — ou <strong>para expor dados da sua operação para outros sistemas</strong> de forma segura e documentada.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Banco de Dados</div>
+        <div class="svc-tag">Banco de Dados & APIs</div>
         <div class="svc-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
         </div>
-        <h3 class="svc-title">Estruturação de Banco de Dados</h3>
-        <p class="svc-desc"><strong>Modelagem, criação e otimização de bancos</strong> PostgreSQL ou SQLite para que seus dados sejam armazenados de forma confiável, rápida e consultável.</p>
-      </div>
-    </div>
-
-    <!-- PANEL: BI -->
-    <div id="tab-bi" class="svc-panel panel-generic">
-      <div class="svc-card">
-        <div class="svc-tag">Diagnóstico Operacional</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </div>
-        <h3 class="svc-title">Mapeamento de Gargalos</h3>
-        <p class="svc-desc">Análise profunda do fluxo de trabalho atual para <strong>identificar onde o tempo e o dinheiro estão sendo desperdiçados</strong> — com um plano de ação para resolver.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Arquitetura de Dados</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
-        </div>
-        <h3 class="svc-title">Desenho da Arquitetura de Dados</h3>
-        <p class="svc-desc">Onde armazenar, como estruturar e de que forma visualizar os dados da sua empresa para <strong>suportar o crescimento sem retrabalho</strong>.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Indicadores</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <h3 class="svc-title">Definição e Monitoramento de KPIs</h3>
-        <p class="svc-desc">Quais métricas realmente importam para o seu negócio? <strong>Definimos, estruturamos e automatizamos o monitoramento</strong> dos indicadores que antecipam problemas antes que aconteçam.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-tag">Treinamento</div>
-        <div class="svc-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-        </div>
-        <h3 class="svc-title">Capacitação da Equipe</h3>
-        <p class="svc-desc">Treinamento direto para a equipe usar as ferramentas entregues com autonomia — <strong>sem depender de mim para cada ajuste pequeno</strong>.</p>
+        <h3 class="svc-title">Estruturação de Dados Corporativos</h3>
+        <p class="svc-desc">Modelagem e otimização de bancos de dados locais ou em nuvem (PostgreSQL, SQL Server). Construção de APIs REST personalizadas para centralizar as informações da sua empresa de maneira rápida, segura, organizada e pronta para escala.</p>
       </div>
     </div>
   </div>
@@ -897,42 +765,37 @@
 
 <div class="divider"></div>
 
-<!-- ════════════════ MODELOS DE CONTRATAÇÃO ════════════════ -->
 <section class="pricing" id="modelos">
   <div class="container">
-    <p class="eyebrow reveal">Como trabalho</p>
-    <h2 class="section-title reveal">Dois modelos. Você escolhe<br/>o que faz mais sentido.</h2>
-    <p class="section-sub reveal" style="margin-top:12px; margin-bottom:0;">Projeto pontual ou parceria contínua — a escolha depende da sua necessidade.</p>
+    <p class="eyebrow reveal">Formatos de Entrega</p>
+    <h2 class="section-title reveal">Como você pode contratar<br/>o desenvolvimento.</h2>
+    <p class="section-sub reveal" style="margin-top:12px; margin-bottom:0;">Dois formatos objetivos de contratação baseados na complexidade da sua demanda.</p>
     <div class="pricing-grid">
 
       <div class="price-card">
-        <div class="price-badge badge-project">Projeto Pontual</div>
-        <h3 class="price-title">Escopo Fechado</h3>
-        <p class="price-sub">Ideal para quem tem um problema específico para resolver agora: uma planilha para construir, um processo para automatizar ou um dashboard para criar.</p>
+        <div class="price-badge badge-project">Projeto Único</div>
+        <h3 class="price-title">Demanda Fechada</h3>
+        <p class="price-sub">Perfeito para quando você já sabe a solução que quer executar: criar um painel específico, construir um robô de integração ou estruturar um banco de dados.</p>
         <ul class="price-list">
-          <li><span class="check">✓</span>Levantamento detalhado do que precisa ser feito</li>
-          <li><span class="check">✓</span>Prazo e entregáveis definidos antes de começar</li>
-          <li><span class="check">✓</span>Orçamento fechado — sem surpresa no meio do caminho</li>
-          <li><span class="check">✓</span>Documentação e handoff para sua equipe</li>
-          <li><span class="check">✓</span>30 dias de suporte pós-entrega incluídos</li>
+          <li><span class="check">✓</span>Alinhamento técnico inicial para travar o escopo</li>
+          <li><span class="check">✓</span>Prazos rígidos de entrega com marcos de validação</li>
+          <li><span class="check">✓</span>Orçamento fixo em contrato — sem custos adicionais ocultos</li>
+          <li><span class="check">✓</span>30 dias de suporte e garantia técnica total pós-entrega</li>
         </ul>
-        <a class="btn btn-ghost" href="#contato" style="width:100%; justify-content:center; font-size:14px;">Solicitar Orçamento</a>
-        <p class="price-note">Resposta em até 24h com estimativa de prazo e valor.</p>
+        <a class="btn btn-ghost" href="#contato" style="width:100%; justify-content:center; font-size:14px;">Solicitar Orçamento de Escopo</a>
       </div>
 
       <div class="price-card highlight">
-        <div class="price-badge badge-monthly">Parceria Mensal</div>
-        <h3 class="price-title">Suporte Contínuo</h3>
-        <p class="price-sub">Para empresas que precisam de um especialista em dados disponível todo mês: melhorias contínuas, novos relatórios, ajustes e evolução constante das ferramentas.</p>
+        <div class="price-badge badge-monthly">Evolução de Sistemas</div>
+        <h3 class="price-title">Desenvolvedor Sob Demanda</h3>
+        <p class="price-sub">Ideal para operações em crescimento contínuo que demandam melhorias constantes, correções, automações frequentes e novos relatórios todas as semanas.</p>
         <ul class="price-list">
-          <li><span class="check-g">✓</span>Banco de horas mensais dedicadas à sua operação</li>
-          <li><span class="check-g">✓</span>Prioridade de atendimento e resposta rápida</li>
-          <li><span class="check-g">✓</span>Evolução contínua das planilhas e automações</li>
-          <li><span class="check-g">✓</span>Reunião mensal de alinhamento e revisão de métricas</li>
-          <li><span class="check-g">✓</span>Novos projetos incluídos no escopo contratado</li>
+          <li><span class="check-g">✓</span>Franquia dedicada de horas de engenharia mensal para sua empresa</li>
+          <li><span class="check-g">✓</span>Atendimento e desenvolvimento prioritário na fila de demandas</li>
+          <li><span class="check-g">✓</span>Acompanhamento contínuo da estabilidade dos robôs e bancos de dados</li>
+          <li><span class="check-g">✓</span>Flexibilidade para alterar e criar novas metas ao longo do mês</li>
         </ul>
-        <a class="btn btn-cyan-lg" href="#contato" style="width:100%; justify-content:center;">Quero uma Parceria Mensal</a>
-        <p class="price-note">Planos a partir de uma conversa sobre sua necessidade. Sem mensalidade padrão — é customizado.</p>
+        <a class="btn btn-cyan-lg" href="#contato" style="width:100%; justify-content:center;">Contratar Engenharia Contínua</a>
       </div>
 
     </div>
@@ -941,71 +804,68 @@
 
 <div class="divider"></div>
 
-<!-- ════════════════ PILARES + PROCESSO ════════════════ -->
 <section class="pillars" id="solucoes">
   <div class="container">
     <div class="pillars-grid">
 
-      <!-- esquerda: processo -->
       <div>
-        <p class="eyebrow reveal">Como funciona</p>
-        <h2 class="section-title reveal" style="max-width:340px; margin-bottom:32px;">Do diagnóstico<br/>à solução rodando.</h2>
+        <p class="eyebrow reveal">Fluxo de Trabalho</p>
+        <h2 class="section-title reveal" style="max-width:340px; margin-bottom:32px;">Como tiramos a<br/>ideia do papel.</h2>
         <div class="process-block">
           <div class="proc-step reveal">
             <div class="proc-dot">1</div>
             <div>
-              <p class="proc-ttl">Diagnóstico Gratuito</p>
-              <p class="proc-dsc">Entendo sua operação, seus gargalos e o que realmente precisa ser resolvido primeiro.</p>
+              <p class="proc-ttl">Mapeamento da Demanda</p>
+              <p class="proc-dsc">Você me apresenta o problema operacional ou a ferramenta que quer criar e avaliamos a viabilidade técnica.</p>
             </div>
           </div>
           <div class="proc-step reveal d1">
             <div class="proc-dot">2</div>
             <div>
-              <p class="proc-ttl">Proposta Sob Medida</p>
-              <p class="proc-dsc">Escopo, prazo e valor definidos de forma transparente — sem surpresa depois que você aprova.</p>
+              <p class="proc-ttl">Alinhamento de Escopo</p>
+              <p class="proc-dsc">Definimos exatamente o que o sistema vai fazer, quais ferramentas serão usadas, além do prazo final de entrega.</p>
             </div>
           </div>
           <div class="proc-step reveal d2">
             <div class="proc-dot">3</div>
             <div>
-              <p class="proc-ttl">Desenvolvimento & Ajustes</p>
-              <p class="proc-dsc">Construo a solução com entregas incrementais e sua validação em cada etapa.</p>
+              <p class="proc-ttl">Desenvolvimento Direto</p>
+              <p class="proc-dsc">Executo a codificação e a estruturação lógica do sistema, com atualizações práticas para você acompanhar.</p>
             </div>
           </div>
           <div class="proc-step reveal d3">
             <div class="proc-dot">4</div>
             <div>
-              <p class="proc-ttl">Entrega + Suporte</p>
-              <p class="proc-dsc">Documentação completa, treinamento da equipe e suporte para garantir que tudo funciona no dia a dia.</p>
+              <p class="proc-ttl">Implementação &amp; Entrega</p>
+              <p class="proc-dsc">Colocamos a automação/sistema para rodar em produção, fazemos os testes de estresse e treinamos seu time.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- direita: pilares de valor -->
       <div>
-        <p class="eyebrow reveal">O que você ganha</p>
-        <h2 class="section-title reveal" style="max-width:340px; margin-bottom:32px;">Três impactos que você sente no mês seguinte.</h2>
+        <p class="eyebrow reveal">Entrega de Valor</p>
+        <h2 class="section-title reveal" style="max-width:340px; margin-bottom:32px;">O impacto prático do sistema rodando.</h2>
         <div class="pillar-list">
           <div class="pillar reveal">
             <span class="pillar-num">01</span>
             <div>
-              <h3 class="pillar-ttl">Liberdade de Tempo</h3>
-              <p class="pillar-dsc">Processos automatizados significam menos reuniões de alinhamento, menos microgerenciamento e mais tempo focado no crescimento — não na operação.</p>
+              <h3 class="pillar-ttl">Eficiência de Custo Operacional</h3>
+              <p class="pillar-dsc">Substituição imediata de gargalos manuais lentos por robôs estáveis. Redução drástica do custo por tarefa executada dentro da empresa.</p>
             </div>
           </div>
           <div class="pillar reveal d1">
             <span class="pillar-num">02</span>
             <div>
-              <h3 class="pillar-ttl">Redução de Erros e Custos</h3>
-              <p class="pillar-dsc">Menos falha humana, menos retrabalho e equipe focada no que gera receita. Cada erro evitado é dinheiro que fica no caixa.</p>
+              <h3 class="pillar-ttl">Blindagem de Processos</h3>
+              <p class="pillar-dsc">Sistemas validados com travas lógicas contra erros humanos. Dados centralizados em estruturas corporativas organizadas e confiáveis.</p>
             </div>
           </div>
           <div class="pillar reveal d2">
             <span class="pillar-num">03</span>
             <div>
-              <h3 class="pillar-ttl">Previsibilidade Total</h3>
-              <p class="pillar-dsc">Dados confiáveis para planejar o próximo passo com segurança. Você para de adivinhar e começa a decidir com evidência.</p>
+              <h3 class="pillar-ttl">Controle Absoluto dos Números</h3>
+              <p class="pillar-dsc">A liderança passa a enxergar dados operacionais reais consolidados automaticamente, eliminando relatórios manuais atrasados.</p>
             </div>
           </div>
         </div>
@@ -1015,37 +875,34 @@
   </div>
 </section>
 
-<!-- ════════════════ FOOTER CTA ════════════════ -->
 <section class="fcta" id="contato">
   <div class="fcta-glow"></div>
   <div class="container">
     <div class="fcta-inner">
-      <div class="hero-pill" style="margin-bottom:28px;"><span class="hero-dot"></span>Orçamento Gratuito · Sem Compromisso</div>
+      <div class="hero-pill" style="margin-bottom:28px;"><span class="hero-dot"></span>Alinhamento de Escopo Aberto</div>
       <h2 class="fcta-headline reveal">
-        Quer ver onde sua empresa<br/>está <em>perdendo dinheiro?</em><br/>Vamos conversar.
+        Tem uma demanda de sistemas<br/>ou automação pronta?<br/><em>Eu executo.</em>
       </h2>
       <p class="fcta-sub reveal">
-        Uma conversa de 30 minutos. Sem enrolação, sem pitch de venda. Você sai com clareza sobre o maior gargalo operacional da sua empresa — mesmo que não me contrate depois.
+        Mande uma mensagem explicando brevemente qual é o sistema, planilha ou integração que você precisa desenvolver hoje. Analiso os requisitos técnicos e respondo com rapidez.
       </p>
       <div class="fcta-actions reveal">
-        <a class="btn btn-wa" href="https://wa.me/5512988793663?text=Olá!%20Quero%20um%20orçamento%20gratuito." target="_blank" rel="noopener">
+        <a class="btn btn-wa" href="https://wa.me/5512988793663?text=Olá!%20Tenho%20uma%20demanda%20de%20automação/dados%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.477 2 2 6.477 2 12.004c0 1.758.46 3.406 1.264 4.842L2 22l5.296-1.239C8.705 21.56 10.32 22 12.004 22 17.523 22 22 17.524 22 12.004 22 6.477 17.523 2 12.004 2zm0 18.007c-1.594 0-3.09-.43-4.381-1.178l-.313-.186-3.145.735.764-3.07-.204-.32C3.86 14.754 3.4 13.43 3.4 12.004 3.4 7.25 7.25 3.4 12.004 3.4c4.754 0 8.6 3.85 8.6 8.604 0 4.754-3.846 8.003-8.6 8.003z"/></svg>
-          Falar com o Especialista no WhatsApp
+          Enviar Minha Demanda no WhatsApp
         </a>
-        <a class="btn btn-ghost" href="mailto:muratadadosautomacao@gmail.com">Prefiro enviar um e-mail</a>
+        <a class="btn btn-ghost" href="mailto:muratadadosautomacao@gmail.com">Prefiro enviar por e-mail</a>
       </div>
-      <p class="fcta-disclaimer reveal">Resposta em até 2h em dias úteis · Sem spam · Sem pitch automático</p>
+      <p class="fcta-disclaimer reveal">Análise de requisitos ágil · Direto com o desenvolvedor responsável</p>
     </div>
   </div>
 </section>
 
-<!-- ════════════════ FOOTER BAR ════════════════ -->
 <footer>
   <div class="container">
     <div class="footer-bar">
       <div class="footer-left">
         <div class="footer-logo-txt">
-          <!-- Logo atualizado para o seu PNG com a proporção travada -->
           <img src="logo_Murata_Clean.png" alt="Murata Dados & Automação" style="width: 22px; height: 22px; object-fit: contain; margin-right: 2px;">
           Murata <span>Dados & Automação</span>
         </div>
